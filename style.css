@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7be79f;
+}
+
+header {
+    background-color: #3b3dda;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #b4c3eb;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.container section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #dddddd;
+}
+
+#summary {
+    background-color: #da75c4;
+    color: white;
+    border-radius: 30px;
+}
+
+#education {
+    background-color: #b88629;
+    border-radius: 30px;
+}
+
+#skills {
+    background-color: #da75c4;
+    border-radius: 30px;
+    color: white;
+}
+
+#projects {
+    background-color: #b88629;
+    border-radius: 30px;
+}
+
+#contact {
+    background-color: #da75c4;
+    color: white;
+    border-radius: 30px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+img {
+    max-width: 50%;
+    border-radius: 20%;
+}
+.zoomable {
+    cursor: pointer; /* Change cursor to a pointer on hover to indicate interactivity */
+    transition: transform 0.3s ease;
+}
+
